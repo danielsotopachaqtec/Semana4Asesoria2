@@ -14,9 +14,12 @@
 	margin-right: 10%;
 }
 .red {
+	flex: none;
+	order: 2;
 	background-color: red;
 }
 .green {
+	order: 1;
 	background-color: green;
 }
 .purple {
@@ -24,6 +27,7 @@
 }
 
 .blue {
+	order: -1;
 	background-color: blue;
 }
 .black {
